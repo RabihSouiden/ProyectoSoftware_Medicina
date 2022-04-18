@@ -10,12 +10,12 @@ const Administrador = () => {
         <ul>
           <li>
             <Typography variant="h5">
-              <Button variant="text">Estudiantes</Button>
+              <Button variant="text" href="Estudiantes">Estudiantes</Button>
             </Typography>
           </li>
           <li>
             <Typography variant="h5">
-              <Button variant="text">Hospitales</Button>
+              <Button variant="text" href="Hospitales">Hospitales</Button>
             </Typography>
           </li>
           <li>

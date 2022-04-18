@@ -98,6 +98,7 @@ export default function SignInSide() {
                 label="Recordar cuenta"
               />
               <Button
+                href='InstitucionMedica '
                 type="submit"
                 fullWidth
                 variant="contained"

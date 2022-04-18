@@ -28,7 +28,7 @@ const Hospitales = () => {
           </li>
           <li>
             <Typography variant="h5">
-              <Button variant="outlined" href="/">Salir</Button>
+              <Button variant="outlined" href="Administrador">Regresar</Button>
             </Typography>
           </li>
         </ul>

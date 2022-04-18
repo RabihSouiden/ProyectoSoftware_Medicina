@@ -16,9 +16,11 @@ const Routes = () => {
           <Route path="Administrador" element={<Administrador />} />
           <Route path="Hospitales" element={<Hospitales />} />
           <Route path="Estudiantes" element={<Estudiantes />} />
-          <Route path="InstitucionesMedicas" element={<InstitucionMedica />} />
+          <Route path="InstitucionMedica" element={<InstitucionMedica />} />
           <Route path="InicioSesionAdministrador" element ={<InicioSesionAdministrador/>}/>
           <Route path="InicioSesionInstitucionMedica" element ={<InicioSesionIntitucionMedica/>}/>
+          
+          
         </Switch>
       </BrowserRouter>
     </div>
