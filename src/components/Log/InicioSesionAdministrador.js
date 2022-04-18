@@ -105,6 +105,16 @@ export default function SignInSide() {
               >
                 Iniciar sesion
               </Button>
+              <Button
+                color='error'
+                href='/'
+                type="submit"
+                fullWidth
+                variant="contained"
+                sx={{ mt: 3, mb: 2 }}
+              >
+                Regresar
+              </Button>
               <Copyright sx={{ mt: 5 }} />
             </Box>
           </Box>
