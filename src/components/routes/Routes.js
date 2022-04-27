@@ -7,6 +7,7 @@ import Estudiantes from "../pages/Estudiantes";
 import Home from "../pages/Home";
 import Hospitales from "../pages/Hospitales";
 import InstitucionMedica from "../pages/InstitucionMedica";
+import FormularioEstudiante from "../Formulario/FormularioEstudiante"
 const Routes = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const Routes = () => {
           <Route path="InstitucionMedica" element={<InstitucionMedica />} />
           <Route path="InicioSesionAdministrador" element ={<InicioSesionAdministrador/>}/>
           <Route path="InicioSesionInstitucionMedica" element ={<InicioSesionIntitucionMedica/>}/>
+          <Route path="FormularioEstudiante" element ={<FormularioEstudiante/>}/>
           
           
         </Switch>
